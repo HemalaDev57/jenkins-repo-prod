@@ -34,5 +34,11 @@ pipeline {
                 sleep 5
             }
         }
+        stage('Automated Test') {
+            steps {
+                echo 'Testing...'
+                sleep 10
+            }
+        }
     }
 }
